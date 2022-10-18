@@ -1,7 +1,9 @@
 body { background-color: #5DADE2 ;
        color :#283747;
      text-align: justify;
-   font-size: large;}
+   font-size: large;
+
+ }
 
 #titulocolor {color: blue;}
 
@@ -13,3 +15,32 @@ body { background-color: #5DADE2 ;
 .fotos {width: 400px;
          height: 200px;
               }
+header {background-color: red;
+padding: 5px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+nav {background-color: green;}
+
+section {background-color: blue;
+padding: 5px;
+width: 50%;
+float: left;
+display: flex;
+flex-wrap: wrap;
+}
+
+aside {background-color: grey;
+width: 50%;
+float: left;
+display: flex;
+flex-wrap: wrap;
+}
+
+footer {background-color: brown;
+clear: both;
+display: flex;
+flex-wrap: wrap;
+}
