@@ -5,7 +5,29 @@
   src: url("../fuentes/AGENCYB.tff")
   format('truetype');
 }
+@media  (min-width: 700px) {
+  h1 {
+    color: black; }
+}
+@media  (max-width: 701){
+  body {
+    background-color: white;
+  }
+}
 
+@media (min-width: 700px) {
+  .banderita{
+    height: 90px;
+    width: 145px;
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .mermelada {
+    display: none;
+  }
+
+}
 p {
   font-family: "letra";
 }
@@ -37,12 +59,64 @@ img {width: 50%;}
           }
 .subrayado {text-decoration: underline;}
 
-.fotos {width: 400px;
+.fotos {
+  width: 400px;
          height: 200px;
               }
-header {background-color: red;
+.flaco{
+  height: 300px;
+  width: 300px;
 
-width: 50vW;
+}
+.flag {
+  height: 90px;
+  width: 145px;
+  margin: 10px;
+}
+
+.wsp {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+.insta{
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+.face{
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+.youtube{
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+.title{
+  width:80%;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 4em;
+  margin: 10px;
+}
+.mapa{
+  height: 100px;
+  width: 150px;
+  margin: 10px;
+}
+.iconos{
+  display: flex;
+flex-direction: row-reverse;
+
+}
+header {background-color: red;
+      display: flex;
+  flex-direction: row-reverse;
+  }
+
+width: 100vW;
 }
 
 li {
