@@ -27,6 +27,14 @@
     display: none;
   }
 
+.cambiar: hover {
+  font-size: 1.3rem;
+    border: none;
+    color: #117864;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
 }
 p {
   font-family: "letra";
@@ -130,7 +138,7 @@ nav {background-color: green;}
 section {background-color: blue;
 padding: 5px;
 width: 50%;
-float: left;
+float: auto;
 display: flex;
 flex-wrap: wrap;
 }
